@@ -1,7 +1,7 @@
 const express = require("express")
 const cors = require("cors")
 const authRoutes = require("./routes/authRoutes")
-const swaggerDocs = require('swagger-jsdoc')
+const swaggerDocs = require('../swagger')
 const swaggerUi = require('swagger-ui-express')
 
 
