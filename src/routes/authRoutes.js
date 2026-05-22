@@ -7,7 +7,7 @@ router.get("/users", getAllUsers)
 router.get('/stats', getStats)
 /**
  * @swagger
- * /signup:
+ * /api/auth/signup:
  *   post:
  *     tags:
  *       - Users

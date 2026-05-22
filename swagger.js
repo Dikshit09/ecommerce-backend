@@ -7,6 +7,11 @@ const options = {
       title: 'Ecommerce API',
       version: '1.0.0',
     },
+    servers:[
+        {
+            url: '/api/auth'
+        }
+    ]
   },
   apis: ['./src/app.js', './src/routes/*.js'],
 }
